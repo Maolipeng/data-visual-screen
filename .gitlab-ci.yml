@@ -16,7 +16,7 @@ variables:
 
 before_script:
   - source .gitlab/scripts/utils.sh
-
+stages:
   - '代码质量检测'
   - '代码构建'
   - '代码部署'
